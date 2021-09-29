@@ -14,7 +14,18 @@ namespace _02Exceptions
                 Console.WriteLine(text);
             }catch(FileNotFoundException)
             {
-                //hier gehts weiter nächste stunde
+                Console.WriteLine("Die Datei gibt es ja gar nicht.");
+            }catch(DirectoryNotFoundException)
+            {
+                Console.WriteLine("Der Ordner zur Datei existiert nicht.");
+            }catch(UnauthorizedAccessException)
+            {
+                Console.WriteLine("Der Zugriff auf die Datei wurde verweigert.");
+            }catch(Exception ex)
+            {
+                Console.WriteLine("Hoppala. Da ist etwas ganz komisches passiert.");
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
             }
         }
     }
