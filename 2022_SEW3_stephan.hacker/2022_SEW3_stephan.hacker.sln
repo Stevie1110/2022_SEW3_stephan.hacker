@@ -21,9 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01Test", "01Test\01Test.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08Caeser", "08Caeser\08Caeser.csproj", "{9BACA15D-DC15-43C1-B101-965DE85F5AFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09InversionChiffre", "09InversionChiffre\09InversionChiffre.csproj", "{4E90EF35-8E75-4FAC-854A-2387F7A28B5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09InversionChiffre", "09InversionChiffre\09InversionChiffre.csproj", "{4E90EF35-8E75-4FAC-854A-2387F7A28B5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10StringFormatting", "10StringFormatting\10StringFormatting.csproj", "{2DBF2B9E-27C9-4DCF-A682-B3DCA3957268}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10StringFormatting", "10StringFormatting\10StringFormatting.csproj", "{2DBF2B9E-27C9-4DCF-A682-B3DCA3957268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11Pythagoras", "11Pythagoras\11Pythagoras.csproj", "{9ECAD555-751C-49C7-8D87-477B48B3458A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12PythagorasKonsole", "12PythagorasKonsole\12PythagorasKonsole.csproj", "{44276410-F4F0-428F-8E24-0AFB6372F582}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{2DBF2B9E-27C9-4DCF-A682-B3DCA3957268}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DBF2B9E-27C9-4DCF-A682-B3DCA3957268}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DBF2B9E-27C9-4DCF-A682-B3DCA3957268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ECAD555-751C-49C7-8D87-477B48B3458A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ECAD555-751C-49C7-8D87-477B48B3458A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ECAD555-751C-49C7-8D87-477B48B3458A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ECAD555-751C-49C7-8D87-477B48B3458A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44276410-F4F0-428F-8E24-0AFB6372F582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44276410-F4F0-428F-8E24-0AFB6372F582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44276410-F4F0-428F-8E24-0AFB6372F582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44276410-F4F0-428F-8E24-0AFB6372F582}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
