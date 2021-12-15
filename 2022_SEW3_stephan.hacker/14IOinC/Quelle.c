@@ -1,12 +1,11 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
-#include <string.h>
+#include<string.h>
 
 int main() {
-	char name[1];
+	char input[1];
 
 	printf("Name eingeben: ");
-	scanf("%[^'\n']", &s); //in eclipse sind die letzten Zeichen '\n' und '\0' sonst nur '\0'
-	printf("\nEingabe war: %s \n", s);
-
-	return 0;
+	scanf("%s[^'\n']", &input); //in eclipse sind die letzten Zeichen '\n' und '\0' sonst nur '\0'
+	printf("\nEingabe war: %s \n", input);
 }
