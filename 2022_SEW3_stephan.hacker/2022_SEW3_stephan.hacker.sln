@@ -33,9 +33,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13HelloWorldC", "13HelloWor
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14IOinC", "14IOinC\14IOinC.vcxproj", "{02B208D0-9AF1-4328-8117-5FF60DB5FB87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1_Vorkommen", "2.1_Vorkommen\2.1_Vorkommen.csproj", "{B1CE2986-2E19-4B7B-83CF-3532C474D1F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1_Vorkommen", "2.1_Vorkommen\2.1_Vorkommen.csproj", "{B1CE2986-2E19-4B7B-83CF-3532C474D1F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.2_Häufigkeitsanalyse", "2.2_Häufigkeitsanalyse\2.2_Häufigkeitsanalyse.csproj", "{1BB3BAD3-2443-4215-8DDD-651043ABE5BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.2_Häufigkeitsanalyse", "2.2_Häufigkeitsanalyse\2.2_Häufigkeitsanalyse.csproj", "{1BB3BAD3-2443-4215-8DDD-651043ABE5BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15GuessNumber", "15GuessNumber\15GuessNumber.vcxproj", "{47549D3A-3E2E-4122-AEEB-DE023E0FF88C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -247,6 +249,16 @@ Global
 		{1BB3BAD3-2443-4215-8DDD-651043ABE5BF}.Release|x64.Build.0 = Release|Any CPU
 		{1BB3BAD3-2443-4215-8DDD-651043ABE5BF}.Release|x86.ActiveCfg = Release|Any CPU
 		{1BB3BAD3-2443-4215-8DDD-651043ABE5BF}.Release|x86.Build.0 = Release|Any CPU
+		{47549D3A-3E2E-4122-AEEB-DE023E0FF88C}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{47549D3A-3E2E-4122-AEEB-DE023E0FF88C}.Debug|x64.ActiveCfg = Debug|x64
+		{47549D3A-3E2E-4122-AEEB-DE023E0FF88C}.Debug|x64.Build.0 = Debug|x64
+		{47549D3A-3E2E-4122-AEEB-DE023E0FF88C}.Debug|x86.ActiveCfg = Debug|Win32
+		{47549D3A-3E2E-4122-AEEB-DE023E0FF88C}.Debug|x86.Build.0 = Debug|Win32
+		{47549D3A-3E2E-4122-AEEB-DE023E0FF88C}.Release|Any CPU.ActiveCfg = Release|Win32
+		{47549D3A-3E2E-4122-AEEB-DE023E0FF88C}.Release|x64.ActiveCfg = Release|x64
+		{47549D3A-3E2E-4122-AEEB-DE023E0FF88C}.Release|x64.Build.0 = Release|x64
+		{47549D3A-3E2E-4122-AEEB-DE023E0FF88C}.Release|x86.ActiveCfg = Release|Win32
+		{47549D3A-3E2E-4122-AEEB-DE023E0FF88C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
