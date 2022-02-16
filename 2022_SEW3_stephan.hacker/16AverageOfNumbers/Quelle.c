@@ -32,7 +32,7 @@ void main() {		//Lösung 1
 	scanf("%d", &mittelwert);
 }
 
-void main() {
+void main() {		//Lösung 2
 	int input1=0;
 	int input2=0;
 	int input3=0;
@@ -48,7 +48,7 @@ void main() {
 	printf("Der Mittelwert ist: %f\n", average);
 }
 
-void main() {
+void main() {		//Lösung 3
 	int sum = 0;
 	printf("Bitte 5 Zahlen eingeben: ");
 	for (int i = 0; i < 5; i++) {
@@ -62,7 +62,7 @@ void main() {
 	printf("Der Mittelwert ist: %f\n", average);
 }
 
-void main() {
+void main() {		//Lösung 4
 	int numbers[5];
 	printf("Bitte 5 Zahlen eingeben:\n");
 	for (int i = 0; i < 5; i++) {
@@ -79,7 +79,7 @@ void main() {
 	printf("Der Mittelwert ist: %f\n", average);
 }
 
-void main() {
+void main() {		//Lösung 5
 	int numbers[NR_OF_ELEMENTS];
 	printf("Bitte 5 Zahlen eingeben:\n");
 	for (int i = 0; i < NR_OF_ELEMENTS; i++) {
