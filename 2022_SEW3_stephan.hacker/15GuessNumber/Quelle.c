@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<stdlib.h>		//Hier ist die Funktion srand drinnen
-#include <time.h>
+#include<time.h>
 
 //Eine Zufallszahl erzeugen --> Benutzer soll solange eine Zahl eingeben können bis er die zufallszahl erraten hat
 
