@@ -55,9 +55,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19Zeiger", "19Zeiger\19Zeig
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20ZeigerArray", "20ZeigerArray\20ZeigerArray.vcxproj", "{747DA7FA-B3D0-4B59-8BF9-E0AB80D01798}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22SerialArduino", "22SerialArduino\22SerialArduino.csproj", "{F724A771-9FCF-411E-9C70-FEEE1E030F2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22SerialArduino", "22SerialArduino\22SerialArduino.csproj", "{F724A771-9FCF-411E-9C70-FEEE1E030F2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23SerialArduinoConsole", "23SerialArduinoConsole\23SerialArduinoConsole.csproj", "{3B5C35FD-0937-4883-AA90-B2EBD7088DAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23SerialArduinoConsole", "23SerialArduinoConsole\23SerialArduinoConsole.csproj", "{3B5C35FD-0937-4883-AA90-B2EBD7088DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24SerialArduinoGUI", "24SerialArduinoGUI\24SerialArduinoGUI.csproj", "{AB85DF5E-7755-4EDE-999E-8D375764D283}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -383,6 +385,18 @@ Global
 		{3B5C35FD-0937-4883-AA90-B2EBD7088DAA}.Release|x64.Build.0 = Release|Any CPU
 		{3B5C35FD-0937-4883-AA90-B2EBD7088DAA}.Release|x86.ActiveCfg = Release|Any CPU
 		{3B5C35FD-0937-4883-AA90-B2EBD7088DAA}.Release|x86.Build.0 = Release|Any CPU
+		{AB85DF5E-7755-4EDE-999E-8D375764D283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB85DF5E-7755-4EDE-999E-8D375764D283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB85DF5E-7755-4EDE-999E-8D375764D283}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AB85DF5E-7755-4EDE-999E-8D375764D283}.Debug|x64.Build.0 = Debug|Any CPU
+		{AB85DF5E-7755-4EDE-999E-8D375764D283}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AB85DF5E-7755-4EDE-999E-8D375764D283}.Debug|x86.Build.0 = Debug|Any CPU
+		{AB85DF5E-7755-4EDE-999E-8D375764D283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB85DF5E-7755-4EDE-999E-8D375764D283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB85DF5E-7755-4EDE-999E-8D375764D283}.Release|x64.ActiveCfg = Release|Any CPU
+		{AB85DF5E-7755-4EDE-999E-8D375764D283}.Release|x64.Build.0 = Release|Any CPU
+		{AB85DF5E-7755-4EDE-999E-8D375764D283}.Release|x86.ActiveCfg = Release|Any CPU
+		{AB85DF5E-7755-4EDE-999E-8D375764D283}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
