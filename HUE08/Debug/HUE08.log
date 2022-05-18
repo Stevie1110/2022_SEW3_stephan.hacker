@@ -1,0 +1,5 @@
+﻿  Quelle.c
+C:\Users\Stephan Hacker\source\repos\Project1\HUE08\Quelle.c(25,18): warning C4244: "Funktion": Konvertierung von "time_t" in "unsigned int", möglicher Datenverlust
+C:\Users\Stephan Hacker\source\repos\Project1\HUE08\Quelle.c(36,14): warning C4047: "Funktion": Anzahl der Dereferenzierungen bei "int *" und "int (*)[10]" unterschiedlich
+C:\Users\Stephan Hacker\source\repos\Project1\HUE08\Quelle.c(36,10): warning C4024: "sort": unterschiedliche Typen für formalen und übergebenen Parameter 1
+  HUE08.vcxproj -> C:\Users\Stephan Hacker\source\repos\Project1\Debug\HUE08.exe
