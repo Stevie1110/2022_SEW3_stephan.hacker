@@ -63,9 +63,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "24SerialArduinoGUI", "24Ser
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test4_Kugel", "Test4_Kugel\Test4_Kugel.vcxproj", "{541A5972-2642-4B71-85A8-17490806049C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25UdpBroadcast", "25UdpBroadcast\25UdpBroadcast.csproj", "{DC789361-74B7-4A8A-932E-99868A70AB68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25UdpBroadcast", "25UdpBroadcast\25UdpBroadcast.csproj", "{DC789361-74B7-4A8A-932E-99868A70AB68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26TcpLED", "26TcpLED\26TcpLED.csproj", "{D2DB8030-B677-4154-8BEA-26CF9C2AB44A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26TcpLED", "26TcpLED\26TcpLED.csproj", "{D2DB8030-B677-4154-8BEA-26CF9C2AB44A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27TelegramBot", "27TelegramBot\27TelegramBot.csproj", "{B6B74C4D-CDE2-4C25-9301-6758028B735C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -437,6 +439,18 @@ Global
 		{D2DB8030-B677-4154-8BEA-26CF9C2AB44A}.Release|x64.Build.0 = Release|Any CPU
 		{D2DB8030-B677-4154-8BEA-26CF9C2AB44A}.Release|x86.ActiveCfg = Release|Any CPU
 		{D2DB8030-B677-4154-8BEA-26CF9C2AB44A}.Release|x86.Build.0 = Release|Any CPU
+		{B6B74C4D-CDE2-4C25-9301-6758028B735C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B74C4D-CDE2-4C25-9301-6758028B735C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B74C4D-CDE2-4C25-9301-6758028B735C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B6B74C4D-CDE2-4C25-9301-6758028B735C}.Debug|x64.Build.0 = Debug|Any CPU
+		{B6B74C4D-CDE2-4C25-9301-6758028B735C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B6B74C4D-CDE2-4C25-9301-6758028B735C}.Debug|x86.Build.0 = Debug|Any CPU
+		{B6B74C4D-CDE2-4C25-9301-6758028B735C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B74C4D-CDE2-4C25-9301-6758028B735C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B74C4D-CDE2-4C25-9301-6758028B735C}.Release|x64.ActiveCfg = Release|Any CPU
+		{B6B74C4D-CDE2-4C25-9301-6758028B735C}.Release|x64.Build.0 = Release|Any CPU
+		{B6B74C4D-CDE2-4C25-9301-6758028B735C}.Release|x86.ActiveCfg = Release|Any CPU
+		{B6B74C4D-CDE2-4C25-9301-6758028B735C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
