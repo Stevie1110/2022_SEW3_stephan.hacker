@@ -39,6 +39,7 @@ namespace _2._2_Häufigkeitsanalyse
             {
                 text = text + item.Key + " - " + item.Value + "\n";
             }
+            return text;
         }
     }
 }
