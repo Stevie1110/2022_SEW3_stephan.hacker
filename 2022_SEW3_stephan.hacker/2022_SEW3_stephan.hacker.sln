@@ -85,11 +85,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_06Calculator", "_06Calcula
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_07Events", "_07Events\_07Events.csproj", "{4D10955A-D54C-4FEA-A510-59FFDAB6CFC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_08FuncAction", "08_FuncAction\_08FuncAction.csproj", "{A495AEA5-2498-415E-816C-2DC42D49747B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_08FuncAction", "08_FuncAction\_08FuncAction.csproj", "{A495AEA5-2498-415E-816C-2DC42D49747B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_09LambdaExpression", "_09LambdaExpression\_09LambdaExpression.csproj", "{3A83E697-AFFD-4369-81C6-DA8DA681E7E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_09LambdaExpression", "_09LambdaExpression\_09LambdaExpression.csproj", "{3A83E697-AFFD-4369-81C6-DA8DA681E7E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_10TimerEventWithLambda", "10TimerEventWithLambda\_10TimerEventWithLambda.csproj", "{4AFEE316-D65C-4182-83C1-027D8C2B4C15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_10TimerEventWithLambda", "10TimerEventWithLambda\_10TimerEventWithLambda.csproj", "{4AFEE316-D65C-4182-83C1-027D8C2B4C15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1Test_LastNameChanged", "1.1Test_LastNameChanged\1.1Test_LastNameChanged.csproj", "{7F6EE5C3-5E39-40A9-9534-FA9A6D7E406F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.2Test_Vollmond", "1.2Test_Vollmond\1.2Test_Vollmond.csproj", "{57AF5B35-5482-4749-9C47-0901054F1136}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -605,6 +609,30 @@ Global
 		{4AFEE316-D65C-4182-83C1-027D8C2B4C15}.Release|x64.Build.0 = Release|Any CPU
 		{4AFEE316-D65C-4182-83C1-027D8C2B4C15}.Release|x86.ActiveCfg = Release|Any CPU
 		{4AFEE316-D65C-4182-83C1-027D8C2B4C15}.Release|x86.Build.0 = Release|Any CPU
+		{7F6EE5C3-5E39-40A9-9534-FA9A6D7E406F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6EE5C3-5E39-40A9-9534-FA9A6D7E406F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6EE5C3-5E39-40A9-9534-FA9A6D7E406F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7F6EE5C3-5E39-40A9-9534-FA9A6D7E406F}.Debug|x64.Build.0 = Debug|Any CPU
+		{7F6EE5C3-5E39-40A9-9534-FA9A6D7E406F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7F6EE5C3-5E39-40A9-9534-FA9A6D7E406F}.Debug|x86.Build.0 = Debug|Any CPU
+		{7F6EE5C3-5E39-40A9-9534-FA9A6D7E406F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6EE5C3-5E39-40A9-9534-FA9A6D7E406F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6EE5C3-5E39-40A9-9534-FA9A6D7E406F}.Release|x64.ActiveCfg = Release|Any CPU
+		{7F6EE5C3-5E39-40A9-9534-FA9A6D7E406F}.Release|x64.Build.0 = Release|Any CPU
+		{7F6EE5C3-5E39-40A9-9534-FA9A6D7E406F}.Release|x86.ActiveCfg = Release|Any CPU
+		{7F6EE5C3-5E39-40A9-9534-FA9A6D7E406F}.Release|x86.Build.0 = Release|Any CPU
+		{57AF5B35-5482-4749-9C47-0901054F1136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57AF5B35-5482-4749-9C47-0901054F1136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57AF5B35-5482-4749-9C47-0901054F1136}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{57AF5B35-5482-4749-9C47-0901054F1136}.Debug|x64.Build.0 = Debug|Any CPU
+		{57AF5B35-5482-4749-9C47-0901054F1136}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{57AF5B35-5482-4749-9C47-0901054F1136}.Debug|x86.Build.0 = Debug|Any CPU
+		{57AF5B35-5482-4749-9C47-0901054F1136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57AF5B35-5482-4749-9C47-0901054F1136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57AF5B35-5482-4749-9C47-0901054F1136}.Release|x64.ActiveCfg = Release|Any CPU
+		{57AF5B35-5482-4749-9C47-0901054F1136}.Release|x64.Build.0 = Release|Any CPU
+		{57AF5B35-5482-4749-9C47-0901054F1136}.Release|x86.ActiveCfg = Release|Any CPU
+		{57AF5B35-5482-4749-9C47-0901054F1136}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
