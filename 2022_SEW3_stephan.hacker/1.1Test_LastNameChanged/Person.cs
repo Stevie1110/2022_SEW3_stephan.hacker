@@ -16,19 +16,22 @@ namespace _1._1Test_LastNameChanged
             this.LastName = LastName;
         }
 
+        private string lastName;
         public string FirstName { get; set; }
-        public string LastName { get; set; }
-
-        public void LastNameAway(Person p)
+        public string LastName
         {
-            p.LastName -= LastNameChanged;
-            p.LastName -= LastNameChanged;
-            p.LastName -= LastNameChanged;
-        }
-
-        private void LastNameChanged(object? sender, EventArgs e)
-        {
-            Console.WriteLine(this.LastName + " Nachname hat sich geändert");
+            get
+            {
+                return this.lastName;
+            }
+            set
+            {
+                this.lastName = value;
+                if (LastNameChanged != null)
+                {
+                    this.LastNameChanged(this, EventArgs.Empty);
+                }
+            }
         }
     }
 }
