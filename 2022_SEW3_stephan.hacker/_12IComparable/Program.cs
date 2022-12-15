@@ -16,7 +16,7 @@ foreach(Student student in students)
     Console.WriteLine(student);
 }
 
-students.Sort();            // diese Methode verwendet intern das Interface IComparable um die Objekte zu vergleichen
+students.Sort();            // diese Methode verwendet intern das Interface IComparable um die Objekte zu vergleichen, sortieren
 
 Console.WriteLine("Sorted: ");
 foreach(Student student in students)
