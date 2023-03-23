@@ -23,7 +23,7 @@ namespace _15SecondWebApp.Pages
         public IActionResult OnPostCalculateAndRedirect1(double subtrahend, double minuend)
         {
             double differenz = subtrahend - minuend;
-            return RedirectToPage("Result", new { result = differenz, calculation = $"{subtrahend} - {minuend} = " });
+            return RedirectToPage("Result", new { result = differenz, calculation = $"{subtrahend} - {minuend} = " , source="Subtraktion"});
 
         }
     }

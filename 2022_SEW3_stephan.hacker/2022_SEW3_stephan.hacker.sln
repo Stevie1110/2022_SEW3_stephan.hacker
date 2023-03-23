@@ -107,7 +107,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_2_PrimeFactors", "2_2_Pri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_14FirstWebApp", "_14FirstWebApp\_14FirstWebApp.csproj", "{2A69716C-10B7-463E-8F65-D45D4529B817}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_15SecondWebApp", "_15SecondWebApp\_15SecondWebApp.csproj", "{7D656B87-53AA-49D0-8993-7D309E61914C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_15SecondWebApp", "_15SecondWebApp\_15SecondWebApp.csproj", "{7D656B87-53AA-49D0-8993-7D309E61914C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

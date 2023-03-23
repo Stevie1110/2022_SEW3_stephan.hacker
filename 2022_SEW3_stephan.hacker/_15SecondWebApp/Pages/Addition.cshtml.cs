@@ -7,6 +7,7 @@ namespace _15SecondWebApp.Pages
     {
         public double? Result { get; set; }
         public string Calculation { get; set; }
+
         public void OnGet()
         {
         }
@@ -23,7 +24,7 @@ namespace _15SecondWebApp.Pages
         public IActionResult OnPostCalculateAndRedirect(Double summand1, double summand2)
         {
             double summe = summand1 + summand2;
-            return RedirectToPage("Result", new {result=summe, calculation=$"{summand1}+ {summand2} = "});
+            return RedirectToPage("Result", new {result=summe, calculation=$"{summand1}+ {summand2} = ", source="Addition"});
 
 		}
     }
