@@ -1,9 +1,0 @@
-C:\Users\Stephan Hacker\source\repos\Project1\HUE11_1\bin\Debug\netcoreapp3.1\HUE11_1.deps.json
-C:\Users\Stephan Hacker\source\repos\Project1\HUE11_1\bin\Debug\netcoreapp3.1\HUE11_1.dll
-C:\Users\Stephan Hacker\source\repos\Project1\HUE11_1\bin\Debug\netcoreapp3.1\HUE11_1.pdb
-C:\Users\Stephan Hacker\source\repos\Project1\HUE11_1\obj\Debug\netcoreapp3.1\HUE11_1.csproj.AssemblyReference.cache
-C:\Users\Stephan Hacker\source\repos\Project1\HUE11_1\obj\Debug\netcoreapp3.1\HUE11_1.AssemblyInfoInputs.cache
-C:\Users\Stephan Hacker\source\repos\Project1\HUE11_1\obj\Debug\netcoreapp3.1\HUE11_1.AssemblyInfo.cs
-C:\Users\Stephan Hacker\source\repos\Project1\HUE11_1\obj\Debug\netcoreapp3.1\HUE11_1.csproj.CoreCompileInputs.cache
-C:\Users\Stephan Hacker\source\repos\Project1\HUE11_1\obj\Debug\netcoreapp3.1\HUE11_1.dll
-C:\Users\Stephan Hacker\source\repos\Project1\HUE11_1\obj\Debug\netcoreapp3.1\HUE11_1.pdb
