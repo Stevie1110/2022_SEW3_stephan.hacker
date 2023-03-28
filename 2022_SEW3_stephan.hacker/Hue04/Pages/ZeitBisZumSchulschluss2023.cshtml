@@ -1,0 +1,43 @@
+﻿@page
+@model Hue04.Pages.ZeitBisZumSchulschluss2023Model
+@{
+}
+@{
+    <h1>Es verbleiben noch folgende Zeiten bis zum Schulschluss 2023: </h1>
+    DateTime endOfSchool = new DateTime(2023, 6, 30, 23,59, 59);
+    TimeSpan timeUntilEndOfSchool = endOfSchool - DateTime.Now;
+
+    int daysUntilEndOfSchool = (int)Math.Floor(timeUntilEndOfSchool.TotalDays);
+    int hoursUntilEndOfSchool = (int)Math.Floor(timeUntilEndOfSchool.TotalHours);
+    int minutesUntilEndOfSchool = (int)Math.Floor(timeUntilEndOfSchool.TotalMinutes);
+    int secondsUntilEndOfSchool = (int)Math.Floor(timeUntilEndOfSchool.TotalSeconds);
+}
+
+<ul>
+    <li>@daysUntilEndOfSchool Tage</li>
+    <li>@hoursUntilEndOfSchool Stunden</li>
+    <li>@minutesUntilEndOfSchool Minuten</li>
+    <li>@secondsUntilEndOfSchool Sekunden</li>
+</ul>
+
+@functions{
+    public string DaysLeft
+    {
+        get
+        {
+            DateTime deadline = new DateTime(2023, 6, 30, 23, 59, 59); // Schlussschluss am 30. Juni 2023, 23:59:59 Uhr
+            TimeSpan remainingTime = deadline - DateTime.Now; // Differenz zwischen der aktuellen Zeit und dem Schlussschluss
+            return $"Noch {remainingTime.Days} Tage, {remainingTime.Hours} Stunden, {remainingTime.Minutes} Minuten und {remainingTime.Seconds} Sekunden";
+        }
+    }
+}
+
+<html>
+<body>
+    <h2>Komplette Zeit bis zum Schulschluss am 30.6.2023:</h2>
+    <div>
+        <ul><li>@DaysLeft</li></ul>
+    </div>
+</body>
+
+</html>

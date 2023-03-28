@@ -1,0 +1,31 @@
+﻿@page
+@model IndexModel
+@{
+	ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+	<h1 class="display-4">Welcome to our Website</h1>
+</div>
+
+<div class="text-left">
+	<ul>
+	<partial>Wählen Sie einen beliebigen Link um Ihren gewünschten Bereich der Zusatzzahlen zu erhalten!</partial>
+	</ul>
+	<ol>
+	<li> 
+	<a class="nav-link text-dark" asp-area="" asp-page="/Zufallszahl" asp-route-minimum="0" asp-route-maximum="10">Zufallszahl zwischen 0 und 10</a> </li>
+	<li>
+	<a class="nav-link text-dark" asp-area="" asp-page="/Zufallszahl" asp-route-minimum="0" asp-route-maximum="100">Zufallszahl zwischen 0 und 100</a>
+	</li>
+	<li>
+	<a class="nav-link text-dark" asp-area="" asp-page="/Zufallszahl" asp-route-minimum="0" asp-route-maximum="1000">Zufallszahl zwischen 0 und 1000</a>
+	</li>
+	<li>
+	<a class="nav-link text-dark" asp-area="" asp-page="/Zufallszahl" asp-route-minimum="-10" asp-route-maximum="10">Zufallszahl zwischen -10 und 10</a>
+	</li>
+	</ol>
+</div>
+<div class="text-center">
+	<img src = "@Model.Image"/>
+</div>

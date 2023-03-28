@@ -61,7 +61,7 @@
             // 
             this.lbl_temp.AutoSize = true;
             this.lbl_temp.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_temp.Location = new System.Drawing.Point(105, 205);
+            this.lbl_temp.Location = new System.Drawing.Point(105, 210);
             this.lbl_temp.Name = "lbl_temp";
             this.lbl_temp.Size = new System.Drawing.Size(185, 25);
             this.lbl_temp.TabIndex = 2;
@@ -71,7 +71,7 @@
             // 
             this.lbl_tempm.AutoSize = true;
             this.lbl_tempm.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_tempm.Location = new System.Drawing.Point(109, 292);
+            this.lbl_tempm.Location = new System.Drawing.Point(105, 292);
             this.lbl_tempm.Name = "lbl_tempm";
             this.lbl_tempm.Size = new System.Drawing.Size(257, 25);
             this.lbl_tempm.TabIndex = 3;
@@ -79,19 +79,19 @@
             // 
             // txt_akt_Temp
             // 
-            this.txt_akt_Temp.Location = new System.Drawing.Point(344, 207);
+            this.txt_akt_Temp.Location = new System.Drawing.Point(394, 210);
             this.txt_akt_Temp.Name = "txt_akt_Temp";
-            this.txt_akt_Temp.Size = new System.Drawing.Size(121, 23);
+            this.txt_akt_Temp.ReadOnly = true;
+            this.txt_akt_Temp.Size = new System.Drawing.Size(125, 23);
             this.txt_akt_Temp.TabIndex = 4;
-            this.txt_akt_Temp.TextChanged += new System.EventHandler(this.txt_akt_Temp_TextChanged);
             // 
             // txt_mitt_Temp
             // 
             this.txt_mitt_Temp.Location = new System.Drawing.Point(394, 292);
             this.txt_mitt_Temp.Name = "txt_mitt_Temp";
+            this.txt_mitt_Temp.ReadOnly = true;
             this.txt_mitt_Temp.Size = new System.Drawing.Size(125, 23);
             this.txt_mitt_Temp.TabIndex = 5;
-            this.txt_mitt_Temp.TextChanged += new System.EventHandler(this.txt_mitt_Temp_TextChanged);
             // 
             // txt_port
             // 

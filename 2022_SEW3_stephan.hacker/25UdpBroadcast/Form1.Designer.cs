@@ -50,6 +50,7 @@ namespace _25UdpBroadcast
             this.txtMessage.Name = "txtMessage";
             this.txtMessage.Size = new System.Drawing.Size(175, 23);
             this.txtMessage.TabIndex = 1;
+            this.txtMessage.TextChanged += new System.EventHandler(this.txtMessage_TextChanged);
             // 
             // txtLog
             // 
