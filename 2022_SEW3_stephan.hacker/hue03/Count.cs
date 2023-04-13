@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace _2._2_Häufigkeitsanalyse
+namespace hue03
 {
-    class WordCount
+    internal class Count
     {
         Dictionary<string, int> myWords = new Dictionary<string, int>();
 

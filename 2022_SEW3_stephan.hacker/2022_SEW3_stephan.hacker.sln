@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
+<<<<<<< HEAD
+VisualStudioVersion = 17.4.33103.184
+=======
 VisualStudioVersion = 17.3.32825.248
+>>>>>>> cf7ad1eb51208e3e528ce73e64f15b34cf764015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01HelloWorld", "01HelloWorld\01HelloWorld.csproj", "{C295F68C-BB90-45D6-B48C-B2E30BBC0BE0}"
 EndProject
@@ -36,6 +40,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1_Vorkommen", "2.1_Vorkommen\2.1_Vorkommen.csproj", "{B1CE2986-2E19-4B7B-83CF-3532C474D1F0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.2_Häufigkeitsanalyse", "2.2_Häufigkeitsanalyse\2.2_Häufigkeitsanalyse.csproj", "{1BB3BAD3-2443-4215-8DDD-651043ABE5BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hue01", "Hue01\Hue01.csproj", "{AC2172F8-92C2-4074-AA0A-EC95D8AD43F5}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15GuessNumber", "15GuessNumber\15GuessNumber.vcxproj", "{47549D3A-3E2E-4122-AEEB-DE023E0FF88C}"
 EndProject

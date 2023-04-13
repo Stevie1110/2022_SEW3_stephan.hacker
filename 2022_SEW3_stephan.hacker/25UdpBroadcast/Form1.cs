@@ -46,6 +46,11 @@ namespace _25UdpBroadcast
             {
                 this.txtLog.Text += se.Message + Environment.NewLine;
             }
-        } 
+        }
+
+        private void txtMessage_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -19,7 +19,7 @@ namespace _2._2_Häufigkeitsanalyse
             a.Add("von", 0);
             a.Add("haben", 0);
             test.MyWords(a);
-            string path = "Hier kommt der Pfad zur Datei rein";
+            string path = "C:\\Users\\Stephan Hacker\\OneDrive - HBLFA Francisco Josephinum\\Dokumente\\SEW22_23\\FrequencyAnalysis";
             test.frequencyAnalysisOfFile(path);
             Console.WriteLine(test.ToString());
         }
