@@ -2,6 +2,12 @@
 @model _15SecondWebApp.Pages.Collatz_ResultModel
 @{
 }
-<p> @Model.Result</p>
+<div class="container-md">
+	<h1>Collatz row</h1>
+	<p>@Model.Result</p>
+
+	<a class="text-dark" asp-area="" asp-page="/@Model.Source">Zurück zu @Model.Source</a>
+</div>
+
 
 
