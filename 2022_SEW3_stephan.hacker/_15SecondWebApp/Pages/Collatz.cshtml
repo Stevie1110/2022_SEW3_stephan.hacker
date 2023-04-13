@@ -2,17 +2,17 @@
 @model _15SecondWebApp.Pages.CollatzModel
 @{
 }
-div class="Container-md">
-	<div class="row">
-		<div class="col-md-6">
-			<form method="post" asp-page-handler="Calculate">
-				<button type="submit">Ergebnis berechnen</button>
-			</form>
-		@if (Model.Result.HasValue)
-		{
-					<p>Ergebnis: @Model.Result</p>
-		}
-		</div>
+<div class="container-md">
+	<h1>Collatz</h1>
+	<div class="col-md-6">
+		<form method="post" asp-page-handler="CalculateCollatz">
+			<div>
+				<input type="number" id="startNum" name="startNum" min="1" />
+			</div><br />
+			<button type="submit">Collertz-Folge berechnen</button>
+
+		</form>
+
 	</div>
 </div>
-
+</div>
