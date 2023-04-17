@@ -6,17 +6,17 @@
     <form method="post" asp-page-handler="Rechner">
     <div class="row">
         <font style="text-align:center" face="Comic sans MS" size="8">Gehzeitrechner für Ihre Wanderung</font><br />
-        @*<h1>Gehzeitrechner für Ihre Wanderung</h1> <br/>*@
+        <font style="text-align:center" face="Comic sans MS" size="5">Wandern ist mehr als nur ein Hobby, es ist Leidenschaft!</font><br />
 
         <div class="col-sm-12">
-            <font face="Comic sans MS" size="5">Bitte Ihre Höhenmeter Aufwärts</font>
+            <font face="Comic sans MS" size="5">Bitte Ihre Höhenmeter Aufwärts eintippen</font>
             <div class="form-group">
                 <label for="Aufwaerts">Höhenmeter:</label>
                     <input type="number" class="form-control" id="Aufwaerts" name="Aufwaerts" placeholder="Hoehenmeter">
             </div>
         </div>
         <div class="col-sm-12">
-            <font face="Comic sans MS" size="5">Bitte Ihre Höhenmeter Abwärts</font>
+            <font face="Comic sans MS" size="5">Bitte Ihre Höhenmeter Abwärts eintippen</font>
             <div class="form-group">
                 <label for="Abwaerts">Höhenmeter:</label>
                 <input type="number" class="form-control" id="Abwaerts" name="Abwaerts" placeholder="Hoehenmeter">
@@ -24,13 +24,12 @@
 
         </div>
         <div class="col-sm-12">
-            <font face="Comic sans MS" size="5">Bitte Ihre horizontalen Kilometer</font>
+            <font face="Comic sans MS" size="5">Bitte Ihre horizontalen Kilometer eintippen</font>
             <div class="form-group">
                 <label for="Kilometer">Kilometer:</label>
                 <input type="number" class="form-control" id="Kilometer" name="Kilometer" placeholder="Kilometer">
             </div>
-            <br />
-
+            <br/>
         </div>
 
         <div class="col-sm-12">
@@ -41,18 +40,20 @@
 
             <div class="form-group">
             <div class="solution">
-                <font face="Comic sans MS" size="5">Ihre Gehzeit beträgt: @Model.Solution</font>
+                <font face="Comic sans MS" size="5">Ihre Gehzeit beläuft sich auf: @Model.Solution</font>
             </div>
                 <br />
             </div>
         </div>
         <img  src="~/wanderer.jpg" alt="Wanderer">
-
     </div>
      </form>
 </div>
 
 <style>
+    .solution{
+        color: red;
+    }
     .col {
         text-align: center;
     }
@@ -61,10 +62,6 @@
         width: 300px;
         height: 50px;
         font-size: 20px;
-    }
-    .solution{
-        border: 1px solid transparent;
-        color: black;
     }
 </style>
 

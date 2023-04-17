@@ -30,8 +30,7 @@ namespace Hue05.Pages
                 Kilometer = this.Kilometer / 2;
             }
             stunden = Diff + Kilometer;
-
-            minuten = (stunden - Math.Truncate(stunden)) * 60;            //Funktion von Raphael Völker
+            minuten = (stunden - Math.Truncate(stunden)) * 60;
 
             if (minuten > 45)
             {
@@ -50,7 +49,7 @@ namespace Hue05.Pages
             {
                 minuten = 15;
             }
-            Solution = $"{Math.Truncate(stunden)} Stunden und {minuten} Minuten";       //Funktion Raphael Völker
+            Solution = $"{Math.Truncate(stunden)} Stunden und {minuten} Minuten";
             return Page();
         }
     }
