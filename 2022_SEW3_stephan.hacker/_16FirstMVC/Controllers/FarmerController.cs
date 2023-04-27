@@ -16,9 +16,21 @@ namespace _16FirstMVC.Controllers
 			return View(model);		//es wird eine View mit dem Namen der Action gesucht, also Index
 		}
 
-		public IActionResult Detail()
+		public IActionResult Detail(string id)		//kommt per URL-Parameter
 		{
-			return View();		// --> View Detail
+			Farmer f = model.Farmers.Where( f => f.LastName == id).FirstOrDefault(); 
+			//model.Farmers.Min( f => f.Birthday ) überprüft wer der älteste ist
+			return View(f);		// --> View Detail
 		}
-	}
+
+		[HttpPost]
+		public IActionResult Edit(string id, Farmer farmer) 
+		{
+            // wir haben noch keine Datenbank in der wir persistente Änderungen speichern können
+            Farmer f = model.Farmers.Where(f => f.LastName == id).FirstOrDefault();
+			// f mit den Daten vom farmer updaten
+			// danach speichern
+			return RedirectToAction("Index");
+        }
+    }
 }
