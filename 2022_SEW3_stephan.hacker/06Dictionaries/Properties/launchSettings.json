@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "06Dictionaries": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:49195;http://localhost:49196"
+    }
+  }
+}
