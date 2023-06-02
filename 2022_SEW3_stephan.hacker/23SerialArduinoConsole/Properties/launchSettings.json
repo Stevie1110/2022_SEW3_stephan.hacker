@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "23SerialArduinoConsole": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:49221;http://localhost:49222"
+    }
+  }
+}

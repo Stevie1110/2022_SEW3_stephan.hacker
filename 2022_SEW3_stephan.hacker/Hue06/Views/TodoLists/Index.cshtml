@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Todo_listShared.TodoList>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Kurzbeschreibung)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Beschreibung)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ErstelltAm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fälligkeitsdatum)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kurzbeschreibung)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Beschreibung)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ErstelltAm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fälligkeitsdatum)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TodoId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.TodoId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.TodoId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

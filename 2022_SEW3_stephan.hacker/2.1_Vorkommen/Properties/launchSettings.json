@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "2.1_Vorkommen": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:49211;http://localhost:49212"
+    }
+  }
+}
