@@ -1,0 +1,20 @@
+﻿@page
+@model _01._1_CalculatorWeb.Pages.ggtinputModel
+@{
+}
+
+<form method="post" asp-page-handler="CalculateggT">
+	<div class="row">
+		<div class="col-6">
+			Number1 =
+			<input type="number" id="number1" name="number1" value="0" />
+		</div>
+	<br />
+		<div class="col-6">
+			Number2 =
+			<input type="number" id="number2" name="number2" value="0" />
+		</div>
+	</div>
+	<br />
+	<button type="submit">Calculate ggT</button>
+</form>
